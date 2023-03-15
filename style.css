@@ -1,0 +1,98 @@
+.ham{
+  margin: auto;
+}
+.hamster {
+  width: 100px;
+  height: 100px;
+  background-color: #f5c59c;
+  border-radius: 100px 100px 30px 30px;
+  position: relative;
+}
+
+.body {
+  width: 100px;
+  height: 80px;
+  background-color: #f5c59c;
+  border-radius: 90px 90px 50px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.face {
+  width: 60px;
+  height: 50px;
+  background-color: #e0a574;
+  border-radius: 50% 50% 30% 30%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.ear {
+  width: 20px;
+  height: 20px;
+  background-color: #e0a574;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  transform: rotate(45deg);
+}
+
+.ear:nth-child(2) {
+  left: 50%;
+  transform: rotate(-45deg);
+}
+
+.eye {
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+}
+
+.eye:nth-child(2) {
+  left: 50%;
+  transform: translateX(12px);
+}
+
+.nose {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.foot {
+  width: 25px;
+  height: 15px;
+  background-color: #f5c59c;
+  border-radius: 10px 10px 5px 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.foot:nth-child(2) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tail {
+  width: 40px;
+  height: 10px;
+  background-color: #e0a574;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 20px;
+  right: -15px;
+  transform: rotate(30deg);
+}
